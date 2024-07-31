@@ -45,7 +45,7 @@ h1 {
 }
 
 p {
-    color:rgba(255, 255, 255, 1);
+    color: #ffffff;
     font-family: Raleway;
     font-size: 1.25rem;
     font-weight: 400;
@@ -94,7 +94,7 @@ h2 {
     color: #33A8DB;
 }
 
-section p {
+p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 18.78px;
@@ -114,7 +114,7 @@ section p {
     height: 51px;
     padding: 16px;
     border-radius: 57px;
-    border: 1px solid #33A8DB ;
+    border: 1px solid #33A8DB80;
     color: #ffffff;
     background-color: #252525;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
@@ -125,3 +125,46 @@ span {
     color: #33A8DB;
     line-height: 18.78px;   
 }
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 46.96px;
+    text-align: left;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges {
+    width: 792px;
+    margin: 76px auto 91px auto;
+}
+
+#professional-challenges img {
+    margin: 8px 44px 40px 43px;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB80;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
